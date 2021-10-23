@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #222B39;
+}
+a {
+  color: #222B39;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 180px;
+  box-shadow: 0 1px 2px #E9E9EB;
+  justify-content: space-between;
+}
+.list-box li, .lang li {
+  display: inline-block;
+  padding: 10px;
+}
+.langs {
+  display: none;
+}
+
+/* header section */
+
+.main {
+  padding: 0 100px;
+}
+.title-list {
+  margin-top: 10px;
+}
+.title-list li {
+  color: #A8A8A8;
+  font-size: 14px;
+  display: inline-block;
+}
+.slider {
+  display: flex;
+  margin: 10px 0;
+}
+.slide-box {
+  flex: 1.1;
+}
+.slide-box img {
+  width: 100%;
+}
+.slide-news {
+  flex: 0.9;
+}
+
+.news-box {
+  margin-left: 25px;
+  display: flex;
+  box-shadow: 2px 2px 15px #E9E9EB;
+  margin-bottom: 10px;
+}
+.news-box img {
+  width: 100px;
+  height: 100%;
+}
+.news-box span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7px 10px 5px 15px;
+}
+.maqola {
+  line-height: 20px;
+  font-size: 15px;
+}
+time {
+  color: #C6C6C6;
+  font-size: 12px;
+}
+
+/* last-news section */
+
+.last-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.box {
+  display: flex;
+  width: 33%;
+  margin: 10px 0;
+}
+.box img {
+  width: 33%;
+  height: 100%;
+}
+.box span {
+  margin: 0 10px;
+  border-bottom: 1px solid #C6C6C6;
+}
+.box .maqola {
+  padding: 5px 0 10px 0;
+}
+
+/* content bar section  */
+
+.content-bar {
+  display: flex;
+  margin: 20px 0;
+}
+.left-bar {
+  padding-right: 20px;
+  flex: 3;
+}
+h3 {
+  color: #313131;
+  font-family: Georgia;
+  margin-bottom: 10px;
+}
+.videos {
+  display: flex;
+}
+.videos span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin-right: 20px;
+  height: 200px;
+  background-size: cover;
+  background-image: url('news3.jpg');
+}
+.videos span i {
+  color: #FFF;
+  font-size: 28px;
+  border: 2px solid #FFF;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.right-bar {
+  padding-left: 10px;
+  flex: 1;
+}
+.right-bar time{
+  margin-top: 10px;
+}
+.right-bar span p{
+  padding: 5px 0 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ajratuvchi */
+
+.divider {
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+.divider hr {
+  background-color: #eee;
+  border-bottom: 1px solid #eee;
+  flex: 1;
+}
+.divider label {
+  padding: 0 15px;
+}
+
+.songi-yangiliklar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.yangilik {
+  width: 50%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.yangilik img {
+  height: 100%;
+  width: 30%;
+}
+.yangilik span {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.yangilik .maqola {
+  margin-bottom: 10px;
+}
